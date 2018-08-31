@@ -71,7 +71,10 @@ object ListDemo {
       var forAll5 = list.forall(n=> n>5);
       printf("forall5=%s\n",forAll5)
       //反转
-      printf("reverse list = %s",list.reverse)
+      printf("reverse list = %s \n",list.reverse)
+
+      //_例子
+      list.foreach(printf(" %s",_));
 
   }
 
