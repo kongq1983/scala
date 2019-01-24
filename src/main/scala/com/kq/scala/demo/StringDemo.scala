@@ -13,6 +13,13 @@ object StringDemo {
       println(str)
       var arg = Array("Scala","Kafka","Spark");
       arg.foreach(a=> println(a))
+
+      arg.foreach(println)
+
+      for(s <- arg) {
+        println(s)
+      }
+
   }
 
 }
