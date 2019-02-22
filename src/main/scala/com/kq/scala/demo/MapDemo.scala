@@ -20,13 +20,15 @@ object MapDemo {
 
 
     //scala.collection.immutable.Map
-    val romanNumeral = Map(
+    var romanNumeral = Map(
       1 -> "I", 2 -> "II", 3 -> "III", 4 -> "IV", 5 -> "V"
     )
     println(romanNumeral(4))
 
 
+    romanNumeral += (6-> "VI");
 
+    println(romanNumeral)
 
   }
 

@@ -22,6 +22,10 @@ object FunctionDemo {
   def main(args: Array[String]): Unit = {
       println(max(10,20))
       greet()
+
+      var isUpper = "abcD".exists(_.isUpper);
+      printf("abcD is upper : %s",isUpper)
+
   }
 
 
